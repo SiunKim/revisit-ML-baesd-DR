@@ -9,9 +9,7 @@ The original datasets needed to implement existing DR models are in the folders,
 
 Python codes for setting train/test datasts based on original/expanded indications are 'AddFunctions_modelname.py'. 
 
-The original/expanded indications split with a given clustering hyperparmeter setting are provided in 'DiDrMat___.tsv' and 'drugDisease___.tsv' files. 
-
-The clustering hyperparmeter setting was denoted in a filename, such as 'drugDisease_expanded_ICD10_cluster2_complete_th0.9.tsv' which means that agglomerative clustering was performed based on ICD10, using two cluster and complete linkage criterion, with similarity threshold of 0.9.
+The original/expanded indications split with a given clustering hyperparmeter setting are provided in 'DiDrMat___.tsv' and 'drugDisease___.tsv' files. The clustering hyperparmeter setting was denoted in a filename, such as 'drugDisease_expanded_ICD10_cluster2_complete_th0.9.tsv' which means that agglomerative clustering was performed based on ICD10, using two cluster and complete linkage criterion, with similarity threshold of 0.9.
 
 
 
