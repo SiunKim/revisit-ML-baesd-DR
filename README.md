@@ -1,6 +1,5 @@
 # revisit-ML-baesd-DR
-This repository is for "Revisiting Machine-Learning based Drug Repositioning: Drug Indication is not a Right Prediction Target" 
-
+The purpose of this repository is to provide datasets and codes in "Revisiting Machine-Learning based Drug Repositioning: Drug Indication is not a Right Prediction Target" submitted to track 2 of CHIL 2023.
 
 # revisit exisiting DR models
 The folder 'revisit_existing_DR_models' contains datasets and codes for revisiting existing DR models in section 3.5.
