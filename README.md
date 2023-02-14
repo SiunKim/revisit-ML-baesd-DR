@@ -3,13 +3,10 @@ This repository is for "Revisiting Machine-Learning based Drug Repositioning: Dr
 
 
 # revisit exisiting DR models
-Datasets and codes for re-visiting existing DR models in section 3.5 are included in the folder 'revisit_existing_DR_models.'
+The folder 'revisit_existing_DR_models' contains datasets and codes for revisiting existing DR models in section 3.5.
 
-The original datasets needed to implement existing DR models are in the folders, 'OriginalDatasets', in each model folder.
+To implement existing DR models, access the original datasets in the 'OriginalDatasets' folders located in each model folder.
 
-Python codes for setting train/test datasts based on original/expanded indications are 'AddFunctions_modelname.py'. 
+Use 'AddFunctions_modelname.py' Python codes to set train/test datasets based on original/expanded indications.
 
-The original/expanded indications split with a given clustering hyperparmeter setting are provided in 'DiDrMat___.tsv' and 'drugDisease___.tsv' files. The clustering hyperparmeter setting was denoted in a filename, such as 'drugDisease_expanded_ICD10_cluster2_complete_th0.9.tsv' which means that agglomerative clustering was performed based on ICD10, using two cluster and complete linkage criterion, with similarity threshold of 0.9.
-
-
-
+The 'DiDrMat___.tsv' and 'drugDisease___.tsv' files provide the original/expanded indications split with a clustering hyperparameter setting denoted in the filename, such as 'drugDisease_expanded_ICD10_cluster2_complete_th0.9.tsv'. This file means agglomerative clustering was performed based on ICD10, using two clusters and complete linkage criterion, with a similarity threshold of 0.9.
