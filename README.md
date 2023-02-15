@@ -1,16 +1,16 @@
-# revisit-ML-baesd-DR
+## revisit-ML-baesd-DR
 This repository contains datasets and codes used in a research paper titled "Revisiting Machine-Learning based Drug Repositioning: Drug Indication is not a Right Prediction Target," which has been submitted to track 2 of CHIL 2023.
 
-# tSNE visualization
+## tSNE visualization
 The folder 'tSNE_visualizataion' includes datasets and codes for tSNE analysis and plotting in section 4.2 of the paper.
 
-# ATC prediction
+## ATC prediction
 The folder 'atc_prediction' includes datasets and codes for developing an XGBoost ATC prediction model in section 4.3 of the paper.
 
-# Drug indication split
+## Drug indication split
 The folder 'split_indications' includes datasets and codes for splitting drug indications into original and expanded, as described in section 5.2 and appendix A.3 of the paper.
 
-# revisit exisiting DR models
+## revisit exisiting DR models
 The folder 'revisit_existing_DR_models' includes datasets and codes for revisiting existing drug repositioning models, as explained in section 5.3 of the paper.
 
 To implement existing DR models, access the original datasets in the "OriginalDatasets" folder located in each model folder.
