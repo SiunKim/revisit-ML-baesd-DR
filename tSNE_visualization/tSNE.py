@@ -78,7 +78,7 @@ def draw_ax_by_colors(Y, colors, ax):
 
 ## main code ##
 #import X, colors
-datasources_used = ['BindingDB', 'PubChem', 'PDSP_Ki', 'ChEMBL', 'total']
+datasources_used = ['BindingDB', 'PDSP_Ki', 'ChEMBL', 'total']
 #save X, colors as pickle files
 import pickle
 X_dict = {}; colors_dict = {}
@@ -172,7 +172,7 @@ for ds in datasources_used:
     Y_generated = perform_tSNE_add_jitter(X_generated, 10)
     #draw ax by colors
     ax.set_title("Randomly collected")
-    draw_ax_by_colors(Y, colors, ax)
+    draw_ax_by_colors(Y_generated, colors, ax)
 
     #add legend
     if has_legend:
