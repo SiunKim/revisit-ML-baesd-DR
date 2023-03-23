@@ -4,9 +4,6 @@ This repository contains datasets and codes used in a research paper titled "Rev
 ## tSNE visualization
 The folder 'tSNE_visualizataion' includes datasets and codes for tSNE analysis and plotting in section 4.2 of the paper.
 
-## ATC prediction
-The folder 'atc_prediction' includes datasets and codes for developing an XGBoost ATC prediction model in section 4.3 of the paper.
-
 ## Drug indication split
 The folder 'split_indications' includes datasets and codes for splitting drug indications into original and expanded, as described in section 5.2 and appendix A.3 of the paper.
 
